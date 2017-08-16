@@ -1,0 +1,21 @@
+page-charts {
+	ion-footer{
+   background-color: #2490B6;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.ios,
+.md {
+    page-home {
+        .scroll-content {
+            background-color: map-get( $colors, light);
+        }
+        ion-card-header {
+            font-weight: bold;
+        }
+    }
+}
+
+}

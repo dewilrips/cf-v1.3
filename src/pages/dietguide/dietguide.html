@@ -1,0 +1,28 @@
+
+<ion-header>
+<ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>dietary guideline</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class="card-background-page">
+
+  <ion-card>
+       <button ion-item *ngFor="let guide of guides" (click)="openDietdetail(guide)">
+    <img src="{{guide.picture}}"/>
+    <div class="card-title">{{guide.name}}</div>
+    <div class="card-subtitle">{{guide.title}}</div>
+    </button>
+  </ion-card>
+
+</ion-content>
+
+
+  
+<ion-footer class="myColor">
+ All rights reserved
+ </ion-footer>

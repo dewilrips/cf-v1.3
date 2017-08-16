@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-navbar>
+    
+    <ion-title>Diet Add</ion-title>
+     <ion-buttons end>
+          <button ion-button icon-only (click)="close()"><ion-icon name="close"></ion-icon></button>
+    </ion-buttons>
+    <!-- <ion-buttons end>
+            <button (click)="save()"><ion-icon name="checkmark"></ion-icon></button>
+        </ion-buttons> -->
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+     
+  <ion-label>Type</ion-label>
+  <ion-select [(ngModel)]="title">
+    <ion-option value="Breakfast">Breakfast</ion-option>
+    <ion-option value="Lunch">Lunch</ion-option>
+    <ion-option value="Dinner">Dinner</ion-option>
+  </ion-select>
+</ion-item>
+ 
+    <ion-item>
+      <ion-label floating>Description</ion-label>
+      <ion-input type="text" [(ngModel)]="description"></ion-input>
+    </ion-item>
+    <ion-item>
+          
+      <ion-label floating>Quantity</ion-label>
+        <ion-input type="text" [(ngModel)]="quantity"></ion-input>
+    </ion-item>
+   
+    
+    <ion-item>
+  <ion-label floating>Date</ion-label>
+  <ion-datetime displayFormat="MMM/DD/YYYY" [(ngModel)]="myDate"></ion-datetime>
+
+</ion-item>
+
+<ion-item>
+      
+  <ion-label floating>time</ion-label>
+  
+   <ion-datetime displayFormat="h/a" [(ngModel)]="time"></ion-datetime>
+</ion-item>
+
+
+  
+  </ion-list>
+  <button full ion-button color="primary" (click)="saveItem()">Save</button> 
+  
+        <!-- <ion-item>
+            <ion-label floating>Type</ion-label>
+            <ion-input type="text" [(ngModel)]="dietitem"></ion-input>
+        </ion-item>
+        -->
+  
+<ion-footer class="myColor">
+ All rights reserved
+ </ion-footer>

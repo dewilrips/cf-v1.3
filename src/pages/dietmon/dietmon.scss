@@ -1,0 +1,42 @@
+page-dietmon{
+
+
+  // margin-top: 100px;
+    overflow: visible;
+
+   ion-title{
+       text-align: left;
+   }
+
+      background-color: map-get($colors, primary);
+      color: #FFFFFF;
+      text-align: center;
+      padding-bottom: 28px;
+
+
+      h2 {
+        font-size: 2.5rem;
+        margin-top: .5rem;
+        color: map-get($colors, primary);
+      }
+
+      h3 {
+        font-size: 1.8rem;
+        color: white;
+      }
+     p{
+        text-align: left
+    }
+
+ion-footer{
+   background-color: #2490B6;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+  
+
+
+}

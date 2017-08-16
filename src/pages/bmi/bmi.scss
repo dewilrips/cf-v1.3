@@ -1,0 +1,38 @@
+page-bmi {
+  ion-card {
+
+    margin-top: 100px;
+    overflow: visible;
+    ion-card-header{
+        text-align: center;
+    }
+
+    ion-card-content {
+
+      background-color: map-get($colors, primary);
+      color: black;
+      text-align: center;
+      padding-bottom: 28px;
+
+      .result{
+          text-align: center;
+      }
+
+     
+
+      h3 {
+        font-size: 1.8rem;
+        color: white;
+      }
+
+    }
+
+  }
+ h2 {
+    
+        padding-left: 10px;
+        margin-left: 10px;
+      }
+
+  
+}

@@ -1,0 +1,111 @@
+page-dietmondetail {
+ 
+  //     ion-card {
+
+  //   margin-top: 100px;
+  //   overflow: visible;
+
+  //   ion-card-content {
+
+  //    background-color: map-get($colors, light);
+  //    // color: #FFFFFF;
+  //     text-align: center;
+  //   //  padding-bottom: 28px;
+  //      border-radius: 4%;
+  //      //height: 160px;
+  //       //width: 160px;
+        
+
+  //     img {
+  //       height: 160px;
+  //       width: 160px;
+  //       border-radius: 50%;
+  //       margin-top: -100px;
+  //       border: solid 4px #FFFFFF;
+  //       display: inline;
+  //     }
+
+  //     h1 {
+  //       font-size: 2.5rem;
+  //   //  margin-top: .5rem;
+  //       color: black;
+
+  //      text-align: left
+  //     }
+
+  //     h3 {
+  //       font-size: 1.8rem;
+  //       color: black;
+  //     }
+  //    p{
+  //        color:BLACK;
+  //        font-size: 2.5rem;
+  //     margin-top: .5rem;
+    
+
+  //   }
+
+  //   }
+
+  // }
+
+
+  .monitor {
+
+  ion-card {
+
+    margin-top: 100px;
+    overflow: visible;
+
+    ion-card-content {
+
+      background-color: map-get($colors, primary);
+      color: #FFFFFF;
+      text-align: center;
+      padding-bottom: 28px;
+
+      img {
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        margin-top: -100px;
+        border: solid 4px #FFFFFF;
+        display: inline;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+        margin-top: .5rem;
+        color: white;
+      }
+
+      h3 {
+        font-size: 1.8rem;
+        color: white;
+      }
+
+    }
+
+  }
+  
+  
+
+}
+.myColor{
+   background-color: #2490B6;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+
+
+ion-footer{
+   background-color: #2490B6;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+}

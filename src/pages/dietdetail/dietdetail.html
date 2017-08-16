@@ -1,0 +1,42 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>{{guide.name}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="guide">
+
+    <ion-card>
+
+        <ion-card-content>
+            <img src="{{guide.picture}}"/>
+            <h2>{{guide.name}}</h2>
+            <h3>{{guide.title}}</h3>
+            
+        
+           <ion-list>
+                <ion-icon name="ios-leaf" item-left></ion-icon>
+                <h1>Vitamins</h1>
+                <p> {{guide.detail1}}</p>
+           </ion-list>
+              
+           <ion-list>
+                <ion-icon name="ios-restaurant" item-left></ion-icon>
+                <h1>Minerals</h1>
+                <p> {{guide.detail2}}</p>
+           </ion-list>
+
+           <ion-list>
+                <ion-icon name="ios-water" item-left></ion-icon>
+                <h1>Carborhydrates</h1>
+                <p> {{guide.detail1}}</p>
+           </ion-list>
+
+        </ion-card-content>
+
+    </ion-card>
+</ion-content>
+
+<ion-footer class="myColor">
+ All rights reserved
+ </ion-footer>

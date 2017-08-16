@@ -1,0 +1,42 @@
+<!--
+  Generated template for the BmiPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+<ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>BMI Calculator</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header> BMI calculator </ion-card-header>
+<ion-card-content>
+  <ion-item> 
+<ion-label>Enter Date:</ion-label>
+           <ion-datetime displayFormat="MMM/DD/YYYY" [(ngModel)]="bmiDate"></ion-datetime> 
+         <!-- <input displayFormat="MMM/DD/YYYY" [(ngModel)]="bmiDate" placeholder="Enter Date"> -->
+  </ion-item>
+ 
+     <ion-label>Enter your weight:</ion-label>
+        <input [(ngModel)]="weightIn" placeholder="Weight (lbs)" type="number"><br>
+    <ion-label>Enter your height:</ion-label>
+        <input [(ngModel)]="heightIn" placeholder="Height (inches)" type="number"> 
+</ion-card-content> 
+         <button ion-button color="primary" (click)="calculateBMI()">Calculate</button> 
+      <h2> Today ({{bmiDate}})</h2> 
+       <h2> Your BMI is:{{result}}</h2> 
+        <h2> and You are {{health}}</h2>
+  </ion-card>
+          
+</ion-content>
+<ion-footer class="myColor">
+ All rights reserved
+ </ion-footer>

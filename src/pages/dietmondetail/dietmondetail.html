@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+       <!-- <ion-spinner name="bubbles"></ion-spinner> -->
+      {{title}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<!-- <ion-content>
+
+  <ion-card>
+        <ion-card-content>
+            <ion-list>  
+            <h1> Desc: </h1>
+            <p> {{description}}</p>
+            </ion-list>
+        </ion-card-content>
+
+    </ion-card>
+
+      <ion-card>
+        <ion-card-content>
+           <ion-list>
+                <ion-icon ios="ios-calendar" md="md-calendar"></ion-icon>
+                <h1>Date: </h1>
+                <p>  {{myDate}}</p>
+           </ion-list>
+              <ion-list>
+                <ion-icon name="archive"></ion-icon>
+                <h1>time: </h1>
+                <p>  {{time}}</p>
+           </ion-list>
+        </ion-card-content>
+
+    </ion-card>
+
+</ion-content> -->
+
+<ion-content class="monitor">
+
+    <ion-card>
+
+        <ion-card-content>
+            <!-- <img src="{{broker.picture}}"/> -->
+            <h2>Description</h2>
+            <h3>{{description}}</h3>
+        </ion-card-content>
+
+        <ion-list>
+           
+          <ion-icon name="ios-restaurant" item-left></ion-icon>
+                <p>Quantity :</p>
+                <h2>{{quantity}}</h2>
+            
+                <ion-icon name="ios-calendar-outline" item-left></ion-icon>
+                <p>Date :</p>
+                <h2>{{myDate}}</h2>
+         
+
+        
+                <ion-icon name="ios-clock-outline" item-left></ion-icon>
+                <p>Time :</p>
+                <h2>{{time}}</h2>
+           
+        </ion-list>
+
+    </ion-card>
+
+</ion-content>
+
+
+<ion-footer class="myColor">
+ All rights reserved
+ </ion-footer>
+
